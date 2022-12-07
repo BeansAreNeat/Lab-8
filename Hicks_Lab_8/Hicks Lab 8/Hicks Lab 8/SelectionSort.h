@@ -1,30 +1,30 @@
 #pragma once
 #include <iostream>
+#include <ctime> 
 #define SIZE 5
 
 class SelectionSort {
 private:
-	int current, arr[SIZE];
-
-public:
-	SelectionSort() { }
-	~SelectionSort() { }
+	int arr[SIZE];
 
 	void fillArray() {
+		srand(time(0));
 		for (int i = 0; i < SIZE; i++) {
-			std::cin >> arr[i];
+			arr[i] = (rand() % 1000);
 		}
-		// Sets current to first index
-		current = arr[0];
 	}
 
-	int minInteger() {
-		int min = arr[0];
+	void display() {
 		for (int i = 0; i < SIZE; i++) {
-			// Test if current is > than the pos
-			// If so, set them equal
-			if (min > arr[i]) {
-				min = arr[i];
+			std::cout << arr[i] << " ";
+		} std::cout << std::endl;
+	}
+
+	int minInteger(int curr) {
+		int min = curr;
+		for (int i = curr + 1; i < SIZE; i++) {
+			if (arr[i] < arr[min]) {
+				min = i;
 			}
 		}
 		return min;
@@ -37,18 +37,16 @@ public:
 		y = temp;
 	}
 
+public:
+	SelectionSort() { }
+	~SelectionSort() { }
+
 	void sort() {
-		for (int i = 0; i < SIZE; i++) {
-			int smallestNum = minInteger();
-			//swap(arr[current], arr[smallestNum]);
-
-			int temp = arr[current];
-			arr[current] = arr[smallestNum];
-			arr[smallestNum] = temp;
-
-		} std::cout << std::endl;
-
-		for (int i = 0; i < SIZE; i++)
-			std::cout << arr[i] << " ";
+		fillArray();
+		for (int current = 0; current < (SIZE - 1); current++) {
+			int low = minInteger(current);
+			swap(arr[low], arr[current]);
+		}
+		display();
 	}
 };

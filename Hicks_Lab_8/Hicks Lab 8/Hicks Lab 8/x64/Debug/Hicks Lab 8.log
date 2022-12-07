@@ -1,2 +1,41 @@
 ﻿  main.cpp
-  Hicks Lab 8.vcxproj -> C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\x64\Debug\Hicks Lab 8.exe
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\SelectionSort.h(11,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\BubbleSort.h(11,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\InsertionSort.h(11,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(11,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(40,24): error C2131: expression did not evaluate to a constant
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(40,18): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(40,18): message : see usage of 'right'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(44,25): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(49,25): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(56,21): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(62,21): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\QuickSort.h(11,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  MergeSort.cpp
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(11,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(40,24): error C2131: expression did not evaluate to a constant
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(40,18): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(40,18): message : see usage of 'right'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(44,25): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(49,25): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(56,21): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(62,21): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(3,12): error C2511: 'MergeSort::MergeSort(int [],int,int)': overloaded member function not found in 'MergeSort'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(6,7): message : see declaration of 'MergeSort'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(6,18): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MergeSort'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(6,18): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(7,18): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MergeSort'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(7,18): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(8,9): error C2660: 'MergeSort::merge': function does not take 4 arguments
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(32,10): message : see declaration of 'MergeSort::merge'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(8,9): message : while trying to match the argument list '(int [], int, int, int)'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(12,17): error C2511: 'void MergeSort::merge(int [],int,int,int)': overloaded member function not found in 'MergeSort'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.h(6,7): message : see declaration of 'MergeSort'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(20,20): error C2131: expression did not evaluate to a constant
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(20,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(20,14): message : see usage of 'right'
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(24,21): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(29,21): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(36,17): error C3863: array type 'int [right+1]' is not assignable
+C:\Users\joe9n\OneDrive\Desktop\Hicks_Lab_8\Hicks Lab 8\Hicks Lab 8\MergeSort.cpp(42,17): error C3863: array type 'int [right+1]' is not assignable
+  Generating Code...
